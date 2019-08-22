@@ -1,0 +1,8 @@
+*.swp
+*.swo
+**/*.rs.bk
+OVMF_*.fd
+ctags.rust
+rusty-tags.vi
+/build
+/target

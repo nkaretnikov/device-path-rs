@@ -1,0 +1,15 @@
+[package]
+name = "device-path-rs"
+version = "0.1.0"
+authors = ["Nikita Karetnikov <nikita@karetnikov.org>"]
+edition = "2018"
+
+[dependencies]
+uefi = { path = "./uefi-rs" }
+uefi-alloc = { path = "./uefi-rs/uefi-alloc" }
+uefi-exts = { path = "./uefi-rs/uefi-exts" }
+uefi-logger = { path = "./uefi-rs/uefi-logger" }
+uefi-macros = { path = "./uefi-rs/uefi-macros" }
+uefi-services = { path = "./uefi-rs/uefi-services" }
+
+log = { version = "0.4", default-features = false }

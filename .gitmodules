@@ -1,0 +1,4 @@
+[submodule "uefi-rs"]
+	path = uefi-rs
+	url = https://github.com/nkaretnikov/uefi-rs.git
+	branch = public-guid
